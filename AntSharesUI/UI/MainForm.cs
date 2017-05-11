@@ -724,6 +724,23 @@ namespace AntShares.UI
             }
         }
 
+        private void lockToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (CreateLockAccountDialog dialog = new CreateLockAccountDialog())
+            {
+                if (dialog.ShowDialog() != DialogResult.OK) return;
+                Contract contract = dialog.GetContract();
+                if (contract == null)
+                {
+                    MessageBox.Show(Strings.AddContractFailedMessage);
+                    return;
+                }
+                Program.CurrentWallet.AddContract(contract);
+                listView1.SelectedIndices.Clear();
+                AddContractToListView(contract, true);
+            }
+        }
+
         private void 自定义CToolStripMenuItem_Click(object sender, EventArgs e)
         {
             using (ImportCustomContractDialog dialog = new ImportCustomContractDialog())

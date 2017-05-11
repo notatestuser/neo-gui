@@ -337,6 +337,15 @@
   <data name="多方签名MToolStripMenuItem.Text" xml:space="preserve">
     <value>多方签名(&amp;M)...</value>
   </data>
+  <data name="lockToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 22</value>
+  </data>
+  <data name="lockToolStripMenuItem.Text" xml:space="preserve">
+    <value>锁仓(&amp;L)...</value>
+  </data>
+  <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 6</value>
+  </data>
   <data name="自定义CToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>153, 22</value>
   </data>
