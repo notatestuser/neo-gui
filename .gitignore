@@ -252,3 +252,7 @@ paket-files/
 *.sln.iml
 
 PublishProfiles
+
+
+#ChainAndCerts directory
+neo-gui/ChainsAndCerts/
