@@ -7,7 +7,7 @@ $targetDirectory = $targetDirectory.Trim();
      Automates the process of configuring the gui to use a specific net. 
 
 .NOTES
-     Author     : Darcy Thomas - dthomas@passageways.com
+     Author     : Darcy Thomas - dthomas@specnotes.com
 #>
 
 Write-Host "Configuration: $configuration"
