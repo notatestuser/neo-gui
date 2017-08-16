@@ -1,7 +1,7 @@
 ﻿{
   "ApplicationConfiguration": {
-    "DataDirectoryPath": "Chain",
-    "CertCachePath": "Certs",
+    "DataDirectoryPath": "C:\\scratch\\chain\\neo\\mainnet\\Chain",
+    "CertCachePath": "C:\\scratch\\chain\\neo\\mainnet\\Certs",
     "NodePort": 10333,
     "WsPort": 10334,
     "UriPrefix": [ "http://*:10332" ],
